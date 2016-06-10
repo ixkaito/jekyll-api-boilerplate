@@ -12,10 +12,10 @@ Jekyll API Boilerplate is a [Jekyll](http://jekyllrb.com/) starter project using
 
    ```bash
    $ bundle install --path vendor/bundle
-   $ bundle exec jekyll serve
+   $ bundle exec jekyll serve --baseurl /jekyll-api-boilerplate
    ```
 
-4. You can then see the generated JSON file at [http://localhost:4000/api/v1/pages.json](http://localhost:4000/api/v1/pages.json), which will look like this:
+4. You can then see the generated JSON file at [http://localhost:4000/jekyll-api-boilerplate/api/v1/pages.json](http://localhost:4000/jekyll-api-boilerplate/api/v1/pages.json), which will look like this:
 
    ```json
    {
@@ -50,4 +50,4 @@ Jekyll API Boilerplate is a [Jekyll](http://jekyllrb.com/) starter project using
    $ bundle exec rake deploy
    ```
 
-2. You can then see the generated JSON file at a URL like this: http://username.github.io/reponame/api/v1/pages.json.
+2. You can then see the generated JSON file at a URL like this: http://username.github.io/jekyll-api-boilerplate/api/v1/pages.json.
