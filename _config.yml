@@ -21,6 +21,9 @@ github_username:  jekyll
 markdown: kramdown
 
 exclude:
+  - README.md
+  - LICENSE
   - Gemfile
   - Gemfile.lock
+  - vendor
   - Rakefile
