@@ -44,7 +44,10 @@ Jekyll API Boilerplate is a [Jekyll](http://jekyllrb.com/) starter project using
 
 ## Deploying to Github Pages
 
-Inside the directory, execute:
-```bash
-$ bundle exec rake deploy
-```
+1. Inside the directory, execute:
+
+   ```bash
+   $ bundle exec rake deploy
+   ```
+
+2. You can then see the generated JSON file at a URL like this: http://username.github.io/reponame/api/v1/pages.json.
