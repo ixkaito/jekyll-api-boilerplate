@@ -14,7 +14,7 @@ task :deploy do
     system 'touch .nojekyll'
     system 'git init'
     system 'git add --all && git commit -m "Site updated at #{Time.now.utc}"'
-    system 'git remote add origin #{origin}'
+    system "git remote add origin #{origin}"
     system 'git push origin master:refs/heads/gh-pages --force'
   end
 end
